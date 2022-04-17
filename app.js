@@ -3,7 +3,7 @@ let input = document.querySelector(".calculator__input")
 let equation = document.getElementById("equation")
 let clear = document.getElementById("delete")
 
-for (let i = 0; i <17; i++) {
+for (let i = 0; i < btn.length; i++) {
     if (i != 15 && i != 16){
         btn[i].addEventListener("click",writer);
     }   
