@@ -12,15 +12,15 @@ function writer () {
 input.value = input.value + this.value;
 }
 
-equation.addEventListener("click", hesap)
+equation.addEventListener("click", result)
 
-function hesap() {
+function result() {
     input.value = eval(input.value)
 }
 
-clear.addEventListener("click", temiz);
+clear.addEventListener("click", clean);
  
-function temiz() {
+function clean() {
     input.value = "";
 }
 
