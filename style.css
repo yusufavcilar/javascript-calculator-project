@@ -1,0 +1,75 @@
+@import "./reset.css ";
+
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+.calculator {
+   width: 20%;
+    background: linear-gradient(to right, #d02df1, #f52779);
+    margin: 50px auto;
+    border:1px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+.calculator__input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto; 
+    border:1px solid transparent;
+    border-radius: 15px;
+}
+.btn {
+    border: 1px solid transparent; 
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.btn:hover {
+    background-color: #2dc3f1;
+}
+.equation {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid transparent; 
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.delete {
+    width: 20%;
+    padding: 15px;
+    border: 1px solid transparent; 
+    border-radius: 4px;  
+}
+.equation:hover {
+    background-color: #2dc3f1;
+}
+.delete:hover {
+    background-color: #2dc3f1;
+}
+.numbers {
+  margin-left:15px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.btn__account {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 20px;
+    align-items: center; 
+}
+.btn__result {
+   text-align: center;
+}
+.text {
+   text-align: center;
+   font-size: 4rem;
+   background: linear-gradient(to right, #2dc3f1, #f54d27);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color:transparent;
+}
